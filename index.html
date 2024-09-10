@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A herança e a casa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Outro dia encontrei um livro velho nas coisas guardadas do meu bisavo falecido, nele encontrei uma carta secreta sobre uma casa que ele teria escondido com parte de sua herança e não contou nada a ninguém, apenas teria deixado essa carta com um enigma para que algum sortudo descobrisse tudo isso. 
+                Seguirei as pistas e irei em busca desse tesouro,e você participará junto comigo, se aventurando.</p>
+            <button class="btn-proximo" data-proximo="1">Encarar essa aventura em segredo</button>
+            <button class="btn-proximo" data-proximo="2">Contar para seus pais</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você inicia sua jornada analisando a casa por fora e vendo qual forma seria melhor para entrar.
+                A casa não é velha, só que por não ter sido cuidada já está feia e caindo aos pedaços.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar o jardim</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Eles decidem te ajudar pois acham a ideia interessante porém perigosa
+            <button class="btn-proximo" data-proximo="6">Explorar a estrutura da casa e criar estrategias</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao explorar o jardim você descobre uma porta que te leva direto para um quarto que com um leve emburrãozinho você consegue abir a porta.
+                Ao entar se depara com móveis velhos e mais nada.
+                Tempo depois acaba encontrando um compartimento secreto na parede que tem algumas travas de segurança.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em busca das chaves para abrir o compartimento que encontrou</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você percebe que tudo isso não vale o seu esforço e mesmo ficando muito decepcionado mas acaba desistindo e voltando para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Depois de algumas pesquisas e conversas com os parentes mais antigos da familia, descobrem que ele teria comprado essa casa uns 2 anos antes de falecer,porque desconfiava de sua morte e decidiu fazer esse engima para “esconder” essa parte da herança para algum corajoso encontrar.</p>
+            <button class="btn-proximo" data-proximo="7">Foram em busca de pistas nos cômodos da casa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Analisaram o estado da casa e como poderiam entrar ali sem correr riscos,mas eles sempre dizem que isso é perca de tempo e que talvez seja tudo uma pegadinha e que não vão encontrar nada na casa.</p>
+            <button class="btn-proximo" data-proximo="8">Infelizmente eles desistem</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No quarto principal da casa você procura em todos os cantos, revira os armarios velhos, até achar um punhado de chaves em uma das ultimas gavetas.</p>
+            <button class="btn-proximo" data-proximo="9">Ir abrir o compartimento</button>
+            <button class="btn-proximo" data-proximo="10">Insistir e procurar mais chaves</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Desde o começo eles ficaram um pouco inseguros com tudo e antes mesmo de começar acham melhor desistir.
+                Mas você como um bom aventureiro que é, continua em busca e lembra que nas pesquisas descobriram um compartimento que precisava ser aberto</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em busca de chaves</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao abrir você encontra várias caixas com diversos papéis e uma mala velha num canto que está cheia de joias e moedas valiosas</p>
+            <button class="btn-proximo" data-proximo="11">Decide usar tudo isso para um bem maior..</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você procura entre os quartos, a sala, cozinha, e mesmo que já desanimado procura também no banheiro</p>
+            <button class="btn-proximo" data-proximo="12">Ir para o compartimento e encontar logo esse tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Decide usar a fortuna não apenas para enriquecer, mas também para preservar a memória daquele homem.
+                Com o tempo, transformou a casa em um museu e um centro cultural, compartilhando as histórias e inspirando outros a se aventurar também.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Logo encontra uma mala velha cheia de joias e moedas valiosas</p>
+            <button class="btn-proximo" data-proximo="11">Decide usar tudo isso para um bem maior..</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
